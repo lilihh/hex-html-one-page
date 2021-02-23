@@ -1,0 +1,228 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: dimgray;
+}
+
+img, a, label, input {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:focus {
+    color: #00654C;
+}
+
+.wrap {
+    background-color: #ffffff;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.top-bar {
+    background-color: #F0F0F0;
+    padding: 5px;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.top-bar a {
+    padding: 0 10px;
+    display: flex;
+}
+
+.top-bar a:hover {
+    text-decoration: underline;
+}
+
+.top-bar img {
+    margin-right: 3px;
+}
+
+.top-bar #id_fb {
+    color: #4460A0;
+}
+
+.top-bar #id_tw {
+    color: #00AAEC;
+    border-left: 1px solid gray;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu-btn {
+    border-bottom: 4px solid #ffffff;
+    padding: 10px 15px;
+}
+
+.menu-btn a {
+    color: #00CC99;
+}
+
+.menu-btn:hover {
+    border-bottom: 4px solid #00CC99;
+}
+
+.banner {
+    padding-left: 20px;
+    font-size: 35px;
+    color: #ffffff;
+    height: 340px;
+    background-image: url("../img/banner.png");
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner h1 {
+    line-height: 1.5;
+}
+
+.course-list {
+    padding: 30px 20px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.course {
+    width: 30%;
+    box-shadow: 2px 2px 5px 1px #E0E0E0;
+
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.course-logo {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.course h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.course p {
+    font-size: 18px;
+}
+
+.comparing {
+    padding: 20px;
+}
+.comparing h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.comparing table {
+    margin: 0 auto;
+}
+
+.comparing .title {
+    font-weight: bold;
+    background-color: #E0E0E0;
+}
+
+.comparing td {
+    border-top: 1px solid #E0E0E0;
+    border-bottom: 1px solid #E0E0E0;
+    padding: 10px 90px 10px 20px;
+}
+
+
+.comparing .emphasize {
+    color: #00CC99;
+}
+
+.sign-up {
+    background: linear-gradient(#00654C,#009772);
+    padding: 20px 10px;
+}
+
+.sign-up h2{
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.sign-up form {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 10px;
+}
+
+.sign-up .info, textarea {
+    color: #ffffff;
+    width: 45%;
+}
+
+.sign-up .blank {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.sign-up .btn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sign-up .btn .submit {
+    color: #ffffff;
+    background-color: #00CC99;;
+    padding: 5px 18px;
+    border-radius: 5px;
+    border: none;
+}
+
+.sign-up .btn .submit:hover {
+    background-color: #00654C;
+}
+
+.footer {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer li {
+    margin: 10px 0;
+}
+
+.footer a {
+    color: #FF60AF;
+    display: inline;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
