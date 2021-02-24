@@ -24,6 +24,7 @@ a:focus {
     margin: 0 auto;
 }
 
+/*top-bar*/ 
 .top-bar {
     background-color: #F0F0F0;
     padding: 5px;
@@ -55,10 +56,10 @@ a:focus {
     border-left: 1px solid gray;
 }
 
+/*header*/
 .header {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
 }
 
 .menu {
@@ -66,8 +67,11 @@ a:focus {
 }
 
 .menu-btn {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    border-top: 4px solid #ffffff;
     border-bottom: 4px solid #ffffff;
-    padding: 10px 15px;
 }
 
 .menu-btn a {
@@ -78,6 +82,7 @@ a:focus {
     border-bottom: 4px solid #00CC99;
 }
 
+/*banner*/
 .banner {
     padding-left: 20px;
     font-size: 35px;
@@ -94,6 +99,7 @@ a:focus {
     line-height: 1.5;
 }
 
+/*course-list*/
 .course-list {
     padding: 30px 20px;
 
@@ -128,9 +134,11 @@ a:focus {
     font-size: 18px;
 }
 
+/*comparing*/
 .comparing {
     padding: 20px;
 }
+
 .comparing h2 {
     font-size: 20px;
     margin-bottom: 20px;
@@ -141,7 +149,7 @@ a:focus {
     margin: 0 auto;
 }
 
-.comparing .title {
+.comparing .table-title {
     font-weight: bold;
     background-color: #E0E0E0;
 }
@@ -157,6 +165,7 @@ a:focus {
     color: #00CC99;
 }
 
+/*sign-up*/
 .sign-up {
     background: linear-gradient(#00654C,#009772);
     padding: 20px 10px;
@@ -207,6 +216,7 @@ a:focus {
     background-color: #00654C;
 }
 
+/*footer*/
 .footer {
     padding: 15px;
     display: flex;
@@ -214,7 +224,7 @@ a:focus {
     align-items: center;
 }
 
-.footer li {
+.footer .contact-info {
     margin: 10px 0;
 }
 
