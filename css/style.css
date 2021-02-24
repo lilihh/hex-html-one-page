@@ -18,6 +18,7 @@ a:focus {
     color: #00654C;
 }
 
+/*wrap 整體排版*/
 .wrap {
     background-color: #ffffff;
     width: 1000px;
@@ -34,16 +35,16 @@ a:focus {
     align-items: center;
 }
 
-.top-bar a {
+.top-bar-link {
     padding: 0 10px;
     display: flex;
 }
 
-.top-bar a:hover {
+.top-bar-link:hover {
     text-decoration: underline;
 }
 
-.top-bar img {
+.top-bar-link img {
     margin-right: 3px;
 }
 
@@ -95,7 +96,7 @@ a:focus {
     justify-content: center;
 }
 
-.banner h1 {
+.title {
     line-height: 1.5;
 }
 
@@ -125,43 +126,43 @@ a:focus {
     align-items: center;
 }
 
-.course h2 {
+.course-name {
     font-size: 20px;
     margin: 10px 0;
 }
 
-.course p {
+.course-description {
     font-size: 18px;
 }
 
 /*comparing*/
 .comparing {
     padding: 20px;
+    margin-bottom: 20px;
 }
 
-.comparing h2 {
+.comparing-title {
     font-size: 20px;
     margin-bottom: 20px;
     text-align: center;
 }
 
-.comparing table {
+.comparing-table {
     margin: 0 auto;
 }
 
-.comparing .table-title {
-    font-weight: bold;
-    background-color: #E0E0E0;
-}
-
-.comparing td {
+.comparing-table td {
     border-top: 1px solid #E0E0E0;
     border-bottom: 1px solid #E0E0E0;
     padding: 10px 90px 10px 20px;
 }
 
+.comparing-courses {
+    font-weight: bold;
+    background-color: #E0E0E0;
+}
 
-.comparing .emphasize {
+.comparing-table .emphasize {
     color: #00CC99;
 }
 
@@ -171,7 +172,7 @@ a:focus {
     padding: 20px 10px;
 }
 
-.sign-up h2{
+.sign-up-title{
     color: #ffffff;
     margin-bottom: 10px;
     font-size: 20px;
@@ -179,18 +180,18 @@ a:focus {
     text-align: center;
 }
 
-.sign-up form {
+.sign-up-form {
     display: flex;
     justify-content: space-evenly;
     padding: 20px 10px;
 }
 
-.sign-up .info, textarea {
+.sign-up-info, .sign-up-text {
     color: #ffffff;
     width: 45%;
 }
 
-.sign-up .blank {
+.sign-up-info .blank {
     width: 100%;
     margin-top: 10px;
     margin-bottom: 15px;
@@ -199,12 +200,12 @@ a:focus {
     border: none;
 }
 
-.sign-up .btn {
+.sign-up-info .btn-zone {
     display: flex;
     justify-content: flex-end;
 }
 
-.sign-up .btn .submit {
+.sign-up-info .btn-zone .submit {
     color: #ffffff;
     background-color: #00CC99;;
     padding: 5px 18px;
@@ -212,7 +213,7 @@ a:focus {
     border: none;
 }
 
-.sign-up .btn .submit:hover {
+.sign-up .btn-zone .submit:hover {
     background-color: #00654C;
 }
 
@@ -224,15 +225,15 @@ a:focus {
     align-items: center;
 }
 
-.footer .contact-info {
+.contact-info {
     margin: 10px 0;
 }
 
-.footer a {
+.contact-info a {
     color: #FF60AF;
     display: inline;
 }
 
-.footer a:hover {
+.contact-info a:hover {
     text-decoration: underline;
 }
